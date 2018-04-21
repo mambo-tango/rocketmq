@@ -18,7 +18,11 @@
 package org.apache.rocketmq.common.message;
 
 import java.util.Map;
-
+/**
+ * 消息存取器
+ * 设置消息属性
+ *
+ */
 public class MessageAccessor {
 
     public static void clearProperty(final Message msg, final String name) {
